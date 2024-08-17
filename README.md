@@ -5,7 +5,7 @@
 This application seamlessly connects TikTok live streams with a Discord server, allowing TikTok viewers to request songs in real-time through comments. The bot then plays the requested songs in a designated Discord voice channel.
 
 **Download:**  
-You can download the executable from the [Releases tab](#) or via [MEGA](https://mega.nz/file/trdhRTzK#tbHUxicFcV_o2aWsCPm-tae6T3Fli9jX_A3ogO0Jlfg).
+You can download the executable from the [Releases tab](#) or via [MEGA](https://mega.nz/file/pn9mmTDS#zy9jis0jjGbClfXXO1W4QMC0zapLJZX8ghQRFyseF0Y).
 
 ## Setup & Usage
 
