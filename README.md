@@ -56,9 +56,6 @@ This application connects TikTok live streams with a Discord server, allowing Ti
 * **Executable Not Starting**  
   Ensure all required dependencies are installed. If using a Windows system, you may need to install the Visual C++ Redistributable.
 
-* **Configuration Issues**  
-  Double-check the entered credentials and ensure they are correct.
-
 * **Connection Issues**  
   Verify that your Discord bot token, YouTube API key, and voice channel ID are correct and that the bot has the necessary permissions. If none of that worked, drag the credentials.txt into the .exe
 
