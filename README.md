@@ -2,67 +2,59 @@
 
 ## Overview
 
-This application connects TikTok live streams with a Discord server, allowing TikTok viewers to request songs through comments in real-time. The bot then plays the requested songs in a specified Discord voice channel.
-Download the .exe in the releases tab. Or donwload it thorugh mega ; https://mega.nz/file/trdhRTzK#tbHUxicFcV_o2aWsCPm-tae6T3Fli9jX_A3ogO0Jlfg
+This application seamlessly connects TikTok live streams with a Discord server, allowing TikTok viewers to request songs in real-time through comments. The bot then plays the requested songs in a designated Discord voice channel.
+
+**Download:**  
+You can download the executable from the [Releases tab](#) or via [MEGA](https://mega.nz/file/trdhRTzK#tbHUxicFcV_o2aWsCPm-tae6T3Fli9jX_A3ogO0Jlfg).
 
 ## Setup & Usage
 
 1. **Download the Executable**  
-   Download the provided executable file for your operating system.
+   Obtain the executable file tailored to your operating system.
 
 2. **Run the Application**  
-   Simply double-click the executable file to start the application.
+   Launch the application by double-clicking the executable file.
 
 3. **Configuration**
 
    * **Initial Setup**  
-     Enter the required credentials.
+     Enter the required credentials:
 
-     You will need:
-     * **Discord Bot Token**  
-       The token for your Discord bot.
-     * **YouTube API Key**  
-       Your API key for accessing YouTube data.
-     * **Voice Channel ID**  
-       The ID of the voice channel where the bot will play songs.
-      
+     - **Discord Bot Token**: Your Discord bot's token.
+     - **YouTube API Key**: API key for YouTube data access.
+     - **Voice Channel ID**: The ID of the voice channel where the bot will play songs.
 
 4. **TikTok Username Entry**  
-   The application will display a GUI where you can enter the TikTok username you want to monitor.
+   A GUI will prompt you to enter the TikTok username to monitor.
 
 5. **Commands**
 
    **TikTok Commands:**
-   * **!play [song name]**  
-     Viewers can request a song by typing `!play [song name]` in the TikTok live chat. The song will be added to the queue and played in the Discord server. The commands.txt is needed to procces them.
+   * `!play [song name]`  
+     Viewers can request a song by typing this command in the TikTok live chat. The song will be added to the queue and played in the Discord server. Ensure the `commands.txt` file is in place for processing.
 
    **Discord Commands:**
-   * **-play [song name]**  
-     Directly play a song or add it to the queue using this command in Discord.
-   * **-pause**  
+   * `-play [song name]`  
+     Play a song or add it to the queue.
+   * `-pause`  
      Pause the currently playing song.
-   * **-resume**  
-     Resume a paused song.
-   * **-stop**  
-     Stop the song and disconnect the bot from the voice channel.
-   * **-next**  
+   * `-resume`  
+     Resume the paused song.
+   * `-stop`  
+     Stop the song and disconnect the bot.
+   * `-next`  
      Skip to the next song in the queue.
-   * **-query**  
+   * `-query`  
      Display the current song queue.
-   * **-command**  
-     Display a list of available commands.
-
-## Troubleshooting
-
-* **Executable Not Starting**  
-  Ensure all required dependencies are installed. If using a Windows system, you may need to install the Visual C++ Redistributable.
+   * `-command`  
+     Show a list of available commands.
 
 * **Connection Issues**  
-  Verify that your Discord bot token, YouTube API key, and voice channel ID are correct and that the bot has the necessary permissions. If none of that worked, drag the credentials.txt into the .exe
+  Confirm that your Discord bot token, YouTube API key, and voice channel ID are correct and that the bot has the necessary permissions. If issues persist, try dragging the `credentials.txt` file into the executable.
 
 ## Contributing
 
-If you encounter any issues or have suggestions for improvements, please reach out through the provided support channels.
+If you encounter any issues or have suggestions for improvements, please reach out via the provided support channels.
 
 ## License
 
