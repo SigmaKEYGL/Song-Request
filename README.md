@@ -1,4 +1,4 @@
-# TikTok Discord Request Bot - README
+Hi, This may not work any more. I will no longer update this. I got an error of the DIR but this might just me.
 
 ## Overview
 
